@@ -1,0 +1,167 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: 'raleway'sans-serif;
+}
+body { 
+	background: url("../../IMG/baa55824afedfc56526bbc422cb0b554.jpg")0 0 no-repeat;
+	 background-size: cover;
+}
+#wrap-main {
+	width: 650px;
+	min-height: 100vh;
+	background-color: rgba(0,0,0,0.8);
+	padding: 20px;
+	margin: auto;
+}
+h1{
+	font-size: 40px;
+	text-align: center;
+	color:#CD9257; 
+}
+.texto_inicio_autor {
+     font-size: 25px;
+	text-align: center;
+	text-shadow: none;
+	 color: rgba(94,143,44,1.00);
+	 margin: 0 0 0 0;
+}
+	h2{
+		font-size: 30px;
+		text-align: center;
+		color: #CD9257;
+		margin: 0 0 20px 0;
+		text-shadow: 2px 2px 6px rgba(0, 0, 0, 0.8);
+		font-family: 'raleway' sans-serif;
+	}
+	 p {
+		columns: 1;
+		margin: 20px 0;
+		color: #FFFFFF;
+		text-align: justify;
+
+	 }
+ul,ol{
+	padding-left: 20px;
+}
+ul,ol,h4,a{
+	margin: 0;
+	color: #FFFFFF;
+}
+hr{
+	border: 0;
+	background-color: #8C5B48;
+	height: 1px;
+	margin: 20px,0;
+}
+
+figcaption{
+	font-style: italic;
+	font-weight: lighter;
+	color: #FFFFFF;
+	margin: 0px, 20px;
+}
+audio {
+	width: 90%;
+	color: white
+}
+figcaption{
+	font-style: italic;
+	font-weight: lighter;
+	color: #FFFFFF;
+	margin: 0 auto 20px;
+}
+nav {
+	text-align: center;
+
+}
+
+nav a {
+	display: inline-block;
+	margin: 0 10px;
+	padding: 10px 20px;
+	background-color: burlywood;
+	text-decoration: none;
+	color: black;
+	border-radius: 5px;
+}
+#footer {
+	background-color: burlywood;
+	color: black;
+	text-align: center;
+	padding: 20px;
+	border-radius: 10px;
+	columns: 1;
+}
+.contenedor {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+}
+.imagen {
+	max-height: 180%;
+	object-fit: cover;
+	object-position: right;
+	margin-right: 10px;
+}
+.revista {
+	display: flex;
+	justify-content: center;
+	align-content: center;
+	width: 60%
+}
+.portada {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	width: 100%;
+	
+}
+.contenedorconcierto {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+
+}
+
+.imagen_para_centrar {
+  max-width: 100%;
+  height: auto;
+  margin: 0;
+  }
+.contenedorrevista {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+
+}
+
+.imagen_para_centrar {
+  max-width: 100%;
+  height: auto;
+  margin: 0;
+  }
+.contenedorvideo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+
+}
+
+.imagen_para_centrar {
+  max-width: 100%;
+  height: auto;
+  margin-top: 15px;
+  }
+.imagen_de_bowie {
+	margin-top: 10px;
+}
+.todos_los_derechos_reservados{
+	font-family: "Freeman", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
